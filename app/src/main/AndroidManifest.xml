@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mindorks.framework.mvvm">
+    package="com.frovis.vuitro">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -47,7 +47,7 @@
             android:launchMode="singleTop" />
 
         <activity
-            android:name="com.mindorks.framework.mvvm.ui.feed.FeedActivity"
+            android:name="com.frovis.vuitro.ui.feed.FeedActivity"
             android:launchMode="singleTop"
             android:parentActivityName=".ui.main.MainActivity"
             android:screenOrientation="portrait">
